@@ -1,9 +1,19 @@
 import React, {Component} from 'react';
 import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Hello from './components/Hello'
 
-function App() {
+class App  extends Component() {
+  render(){
   return (
+    <div>
     <Greet/>
+    <Greet/>
+    <Greet/>
+    {/*<Welcome/> */}
+    {/* <Hello/> */}
+    </div>
   )
+  }
 }
 export default App;
